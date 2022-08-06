@@ -1,0 +1,57 @@
+body,
+html,
+#root {
+  height: 100%;
+}
+
+html {
+  font-size: 10px;
+}
+
+h1 {
+  padding: 0.77rem 0;
+  background-color: #b16022;
+  text-align: center;
+  font-family: serif;
+  font-size: 1.80rem;
+  color: #fff;
+}
+
+h1 .highlight {
+  color: rgb(46, 213, 230);
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+h2{
+  font-family: serif;
+  font-size: 1.55rem;
+}
+
+.App{
+  height: 100%;
+  padding: 0 17% 10% 17%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: sans-serif;
+  font-weight: 50%;
+  color: #fff;
+}
+
+.App-playlist {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 1080px) {
+  .App-playlist{
+    align-items: center;
+    flex-direction: column;
+  }
+  
+}
+
